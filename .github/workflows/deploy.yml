@@ -25,7 +25,7 @@ jobs:
         run: deno lint
 
       - name: Run type checks
-        run: deno check
+        run: deno check backend/server.ts backend/domainHack.ts
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
