@@ -1,5 +1,6 @@
 services:
   app:
+    container_name: domain-hack-finder-website
     environment:
       - PORT=80
     expose:
